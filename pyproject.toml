@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mongo-tools"
+version = "0.1.0"
+authors = [{ name = "Guilherme R." }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+mongo-tools = "cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
