@@ -2,7 +2,7 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-[mongo-tools]
+[project]
 name = "mongo-tools"
 version = "0.1.0"
 authors = [{ name = "Guilherme R." }]
